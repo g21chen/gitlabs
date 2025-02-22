@@ -11,4 +11,6 @@ docker run --detach \
   gitlab/gitlab-ce:latest
 
 
-  
+  get the password to access it
+
+  docker exec -it gitlab grep 'Password:' /etc/gitlab/initial_root_password
